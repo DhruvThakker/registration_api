@@ -24,7 +24,7 @@ INSTALLED_APPS = (
 )
 ```
 
-* Add the urls of the app (course_dashboard_api) to ‘url_patterns’ in python file /edx/app/edxapp/edx-platform/lms/urls.py
+* Add the urls of the app (registration_api) to ‘url_patterns’ in python file /edx/app/edxapp/edx-platform/lms/urls.py
 
 ```python
 urlpatterns = (
@@ -42,4 +42,4 @@ sudo /edx/bin/supervisorctl restart edxapp:
 ```
 
 
-### [Documentation for APIs](https://github.com/jaygoswami2303/registration_api/wiki)
+### [Documentation for APIs](https://github.com/DhruvThakker/registration_api/wiki)
